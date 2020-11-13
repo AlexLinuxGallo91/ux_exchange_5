@@ -171,7 +171,7 @@ class BusquedaElementosHtml:
                 return driver.find_element_by_xpath(
                     constantes_webdriver_actions.CERRAR_SESION_BTN_XPATH_CIERRE_SESION_OWA_2013)
 
-        raise SelExcept.TimeoutException(msg='No fue posible localizar el boton de perfil del usuario dentro de la '
+        raise SelExcept.TimeoutException(msg='No fue posible localizar el boton de cierre de sesion dentro de la '
                                              'plataforma')
 
     @staticmethod
